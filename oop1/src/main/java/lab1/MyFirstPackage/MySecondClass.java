@@ -1,12 +1,12 @@
-package lab1;
+package lab1.MyFirstPackage;
 
-class MySecondClass{
+public class MySecondClass{
 
     private int k1;
     private int k2;
 
 
-    MySecondClass(int a, int b){
+   public MySecondClass(int a, int b){
         this.k1 = a;
         this.k2 = b;
     }

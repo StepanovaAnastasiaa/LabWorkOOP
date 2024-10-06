@@ -1,4 +1,7 @@
 package lab1;
+
+import lab1.MyFirstPackage.MySecondClass;
+
 class MyFirstClass {
     public static void main(String[] s) {
         MySecondClass o = new MySecondClass(78, 45);
