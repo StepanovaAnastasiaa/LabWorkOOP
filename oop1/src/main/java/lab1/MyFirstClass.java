@@ -1,11 +1,19 @@
 package lab1;
-
-
-public class MyFirstClass {
+class MyFirstClass {
     public static void main(String[] s) {
-        for(int i = 0; i < s.length; i++) {
-            System.out.println(s[i]);
+        MySecondClass o = new MySecondClass(78, 45);
+        System.out.println(o.subtraction());
+        for (int i = 1; i <= 8; i++) {
+            for (int j = 1; j <= 8; j++) {
+                o.setK1(i);
+                o.setK2(j);
+                System.out.print(o.subtraction());
+                System.out.print(" ");
+
+
+            }
         }
+
 
     }
 }
